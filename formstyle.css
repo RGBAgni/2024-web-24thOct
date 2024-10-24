@@ -1,0 +1,34 @@
+body {
+    background-color: #73afc9
+}
+
+.BasicHTML.html{
+    color: red;
+}
+
+p, legend {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+label, .placeholder {
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+fieldset
+{
+  background-color:#ffc9ff;
+  max-height: 5000px;
+  max-width:500px;
+  padding:20px;	
+  
+}
+
+label {
+    font-weight: bold;
+    width: 200px;
+    float: left;
+  
+  }
+  label:after { content: ": " }
